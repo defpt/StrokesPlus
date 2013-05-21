@@ -1,0 +1,21 @@
+--Search text or open a link(forground)
+acSetClipboardText("")
+acSendKeys("^c")
+acDelay(50)
+if acGetClipboardText() ~= "" then 
+   if acGetExecutableName(nil,gsx,gsy)~="firefox.exe" then acSendKeys("%d")
+   else acSendKeys("^k") end
+   acSendKeys("^v")
+   acSendKeys("{DELAY=25}%{ENTER}")
+else acMouseMove(gsx,gsy)
+     acDelay(100)
+     if acGetMouseCursorType() == "HAND" then
+        acSendControlDown()
+        acDelay(25)
+        acSendShiftDown() 
+        acMouseClick(gsx, gsy, 2, 1, 1) 
+        acDelay(25)
+        acSendShiftUp()   
+        acSendControlUp()
+     end
+end
