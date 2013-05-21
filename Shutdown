@@ -1,0 +1,5 @@
+--Shutdown同时按下鼠标左右键然后划“L”才起作用
+--传统关机
+--acRunProgram("c:\\windows\\system32\\shutdown.exe","-s -t 0",0,1) 
+--win8混合关机
+acRunProgram("c:\\windows\\system32\\shutdown.exe","-s -hybrid -t 0",0,0) 
