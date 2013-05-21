@@ -1,4 +1,4 @@
 StrokesPlus
 ===========
 
-StrokesPlus的一些手势代码
+StrokesPlus的一些自用手势代码
