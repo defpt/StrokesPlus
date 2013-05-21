@@ -1,0 +1,26 @@
+-- ************ BackupConfig(by Rob) ************
+function BackupConfig(source, destination)
+        local BUFSIZE = 2^14;
+        local fInHandle = io.open(source, "rb");
+        local fOutHandle = io.open(destination, "wb");
+        local current = fInHandle:seek()      -- get current position
+        local size = fInHandle:seek("end")    -- get file size
+        fInHandle:seek("set", current)        -- restore position
+        local blocks = math.floor(size / BUFSIZE);
+        local remainder = size - (blocks * BUFSIZE);
+        for i = 1, blocks do
+                data = fInHandle:read(BUFSIZE);
+                fOutHandle:write(data);
+                pos = 1000 * i * BUFSIZE / size;
+        end
+        if (remainder > 0) then
+                data = fInHandle:read(remainder);
+                fOutHandle:write(data);
+        end
+        fInHandle:close();
+        fOutHandle:close();
+end
+local SourceFolder = "C:\\Users\\用户名\\AppData\\Roaming\\StrokesPlus\\" --配置文件路径
+local BackupFolder = "D:\\Backup Center\\BackupStrokesPlus\\" --备份文件路径
+BackupConfig(SourceFolder.."StrokesPlus.xml", BackupFolder.."StrokesPlus.xml")
+BackupConfig(SourceFolder.."StrokesPlus.lua", BackupFolder.."StrokesPlus.lua")
