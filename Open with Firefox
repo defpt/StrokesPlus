@@ -1,9 +1,6 @@
---Open with Firefox/Chrome
+--View with Firefox/Chrome
 acSetClipboardText("")
-if acGetExecutableName(nil,gsx,gsy)~="firefox.exe"
-then
 acSendKeys("^l")
 acSendKeys("^c")
 local url=acGetClipboardText()
 acRunProgram("D:\\Program Files\\MyFirefox\\Firefox\\firefox.exe",url,0, 1)
-end
