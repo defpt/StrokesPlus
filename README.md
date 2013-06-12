@@ -1,14 +1,13 @@
-StrokesPlus
-=====
-StrokesPlus的一些自用手势代码,包括简单的直接模拟快捷键以及一些自写**特殊功能**
+#StrokesPlus 说明文档
+这里是一些自用的 [StrokesPlus](http://www.strokesplus.com/forum/6/downloads/) 手势代码,包括简单的直接模拟快捷键以及一些自写**特殊功能**
 
-我的配置文件
-------
+###我的配置文件
 + [StrokesPlus.lua](https://github.com/defpt/StrokesPlus/blob/master/StrokesPlus.lua) 是全局执行的脚本文件
 + [StrokesPlus.xml](https://github.com/defpt/StrokesPlus/blob/master/StrokesPlus.xml) 是所有自定义手势设置
++ [RenameBackup.bat](https://github.com/defpt/StrokesPlus/blob/master/RenameBackup.bat) 是备份文件重命名为原文件的批处理
 
 
-##主要有如下几个：
+###主要有如下几个：
 
 + [--Auto Scroll](https://github.com/defpt/StrokesPlus/blob/master/--Auto%20Scroll.lua) 自动滚屏，每次滚动一个屏幕。**要手势激活**，默认鼠标移动到桌面左侧(大概一个Win8任务栏宽度)可退出激活状态，可自己按需修改
 + [--Open a link or New Tab](https://github.com/defpt/StrokesPlus/blob/master/--Open%20a%20link%20or%20New%20Tab.lua) 新建标签或者新标签后台打开链接
