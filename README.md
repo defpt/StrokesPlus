@@ -6,7 +6,6 @@
 + [StrokesPlus.xml](https://github.com/defpt/StrokesPlus/blob/master/StrokesPlus.xml) 是所有自定义手势设置
 + [RenameBackup.bat](https://github.com/defpt/StrokesPlus/blob/master/RenameBackup.bat) 是备份文件重命名为原文件的批处理
 
-
 ###主要有如下几个：
 
 + [--Auto Scroll](https://github.com/defpt/StrokesPlus/blob/master/--Auto%20Scroll.lua) 自动滚屏，每次滚动一个屏幕。**要手势激活**，默认鼠标移动到桌面左侧(大概一个Win8任务栏宽度)可退出激活状态，可自己按需修改
@@ -21,3 +20,5 @@
 + [--Translate this with google](https://github.com/defpt/StrokesPlus/blob/master/--Translate%20this%20with%20google.lua) 谷歌翻译，**全局利器**，默认自动识别翻译为中文，可自己设置默认翻译语言
 + [--View with IE](https://github.com/defpt/StrokesPlus/blob/master/--View%20with%20IE.lua)、[--View with Firefox](https://github.com/defpt/StrokesPlus/blob/master/--View%20with%20Firefox.lua)、[--View with Chrome](https://github.com/defpt/StrokesPlus/blob/master/--View%20with%20chrome.lua) 使用别的浏览器打开当前网页
 
+###所有功能效果图
+![](https://github.com/defpt/StrokesPlus/blob/master/StrokesPlus.png?raw=true)
