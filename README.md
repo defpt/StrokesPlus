@@ -1,6 +1,12 @@
-#StrokesPlus
-
+StrokesPlus
+=====
 StrokesPlus的一些自用手势代码,包括简单的直接模拟快捷键以及一些自写**特殊功能**
+
+我的配置文件
+------
++ [StrokesPlus.lua](https://github.com/defpt/StrokesPlus/blob/master/StrokesPlus.lua) 是全局执行的脚本文件
++ [StrokesPlus.xml](https://github.com/defpt/StrokesPlus/blob/master/StrokesPlus.xml) 是所有自定义手势设置
+
 
 ##主要有如下几个：
 
