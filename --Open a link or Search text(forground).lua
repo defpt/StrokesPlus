@@ -1,0 +1,22 @@
+--Open a link or Search text(forground)
+acConsumePhysicalInput(1)
+acMouseMove(gsx,gsy)
+acDelay(20)
+if acGetMouseCursorType() == "HAND" then
+   acSendControlDown()
+   acDelay(25)
+   acSendShiftDown() 
+   acMouseClick(gsx, gsy, 2, 1, 1) 
+   acDelay(25)
+   acSendShiftUp()   
+   acSendControlUp()
+else
+   acSetClipboardText("")
+   acSendKeys("^c")
+   acDelay(25)
+   acSendKeys("^k")
+   acDelay(25)
+   acSendKeys("^v")
+   acSendKeys("{DELAY=25}%{ENTER}")
+end
+acConsumePhysicalInput(0)

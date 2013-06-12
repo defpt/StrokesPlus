@@ -1,6 +1,0 @@
---View with Firefox/Chrome
-acSetClipboardText("")
-acSendKeys("^l")
-acSendKeys("^c")
-local url=acGetClipboardText()
-acRunProgram("D:\\Program Files\\MyFirefox\\Firefox\\firefox.exe",url,0, 1)
