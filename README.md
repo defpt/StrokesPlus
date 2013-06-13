@@ -19,6 +19,7 @@
 + [--SupperForward](https://github.com/defpt/StrokesPlus/blob/master/--SupperForward.lua)、[--SupperBack](https://github.com/defpt/StrokesPlus/blob/master/--SupperBack.lua) 前进、后退，外加了模拟键盘左右方向键
 + [--Translate this with google](https://github.com/defpt/StrokesPlus/blob/master/--Translate%20this%20with%20google.lua) 谷歌翻译，**全局利器**，默认自动识别翻译为中文，可自己设置默认翻译语言
 + [--View with IE](https://github.com/defpt/StrokesPlus/blob/master/--View%20with%20IE.lua)、[--View with Firefox](https://github.com/defpt/StrokesPlus/blob/master/--View%20with%20Firefox.lua)、[--View with Chrome](https://github.com/defpt/StrokesPlus/blob/master/--View%20with%20chrome.lua) 使用别的浏览器打开当前网页
++ [JSTools](https://github.com/defpt/StrokesPlus/blob/master/JSTools.lua)  Firefox上调用小书签代码的模板
 
 ###所有功能效果图
 ![](https://github.com/defpt/StrokesPlus/blob/master/StrokesPlus.png?raw=true)
