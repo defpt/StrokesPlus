@@ -19,7 +19,9 @@
 + [--SupperForward](https://github.com/defpt/StrokesPlus/blob/master/--SupperForward.lua)、[--SupperBack](https://github.com/defpt/StrokesPlus/blob/master/--SupperBack.lua) 前进、后退，外加了模拟键盘左右方向键
 + [--Translate this with google](https://github.com/defpt/StrokesPlus/blob/master/--Translate%20this%20with%20google.lua) 谷歌翻译，**全局利器**，默认自动识别翻译为中文，可自己设置默认翻译语言
 + [--View with IE](https://github.com/defpt/StrokesPlus/blob/master/--View%20with%20IE.lua)、[--View with Firefox](https://github.com/defpt/StrokesPlus/blob/master/--View%20with%20Firefox.lua)、[--View with Chrome](https://github.com/defpt/StrokesPlus/blob/master/--View%20with%20chrome.lua) 使用别的浏览器打开当前网页
-+ [JSTools](https://github.com/defpt/StrokesPlus/blob/master/JSTools.lua)  Firefox上调用小书签代码的模板
++ [JSTools](https://github.com/defpt/StrokesPlus/blob/master/JSTools.lua)  Firefox上调用小书签代码的模板,不过要配合启用地址栏可运行代码才行，可通过扩展（比如tab_utilities） 或脚本（uc脚本）总在当前标签页打开Bookmarklet，代码为：
 
+          eval("openLinkIn = " + openLinkIn.toString().replace(/(?=if \(where == "save"\))/, 'if (url.substr(0, 11) == "javascript:") where = "current";').replace(/(?=var loadInBackground)/, 'if (w.gBrowser.currentURI.spec == "about:blank" && !w.gBrowser.mCurrentTab.hasAttribute("busy")) where = "current";'));
+      
 ###所有功能效果图
 ![](https://github.com/defpt/StrokesPlus/blob/master/StrokesPlus.png?raw=true)
