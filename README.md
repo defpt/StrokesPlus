@@ -16,6 +16,7 @@
 + [--Search in website](https://github.com/defpt/StrokesPlus/blob/master/--Search%20in%20website.lua) 站内搜索，默认用的是谷歌引擎
 + [--Search this with google](https://github.com/defpt/StrokesPlus/blob/master/--Search%20this%20with%20google.lua) 谷歌搜索，**全局搜索利器**，在记事本、word等文本编辑器也可使用
 + [--Shutdown](https://github.com/defpt/StrokesPlus/blob/master/--Shutdown.lua) 关机
++ [--Send to Notepad](https://github.com/defpt/StrokesPlus/blob/master/--Send%20to%20 Notepad.lua) 发送选中文本到记事本
 + [--SupperForward](https://github.com/defpt/StrokesPlus/blob/master/--SupperForward.lua)、[--SupperBack](https://github.com/defpt/StrokesPlus/blob/master/--SupperBack.lua) 前进、后退，外加了模拟键盘左右方向键
 + [--Translate this with google](https://github.com/defpt/StrokesPlus/blob/master/--Translate%20this%20with%20google.lua) 谷歌翻译，**全局利器**，默认自动识别翻译为中文，可自己设置默认翻译语言
 + [--View with IE](https://github.com/defpt/StrokesPlus/blob/master/--View%20with%20IE.lua)、[--View with Firefox](https://github.com/defpt/StrokesPlus/blob/master/--View%20with%20Firefox.lua)、[--View with Chrome](https://github.com/defpt/StrokesPlus/blob/master/--View%20with%20chrome.lua) 使用别的浏览器打开当前网页
