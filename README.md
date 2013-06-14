@@ -13,13 +13,13 @@
 + [OpenLinkorNewTab](https://github.com/defpt/StrokesPlus/blob/master/OpenLinkorNewTab.lua) 新建标签或者新标签后台打开链接
 + [OpenLinkorSearchText](https://github.com/defpt/StrokesPlus/blob/master/OpenLinkorSearchText.lua) 搜索选中内容或者新标签前台打开链接
 + [OpeninGoogleWebeCache](https://github.com/defpt/StrokesPlus/blob/master/OpeninGoogleWebeCache.lua) 用谷歌快照功能打开网页
-+ [ScrollWithMouse](https://github.com/defpt/StrokesPlus/blob/master/ScrollWithMouse.lua) 划手势激活，光标移到滚动条滑块即可拖动鼠标进行自由滚动，鼠标移到桌面底部退出激活状态，可自己按需修改。**特别注意由于采用了滚动块颜色判定，***所以如过使用自定义滚动条要自己修改颜色代码*
-+ [SearchInWebsite](https://github.com/defpt/StrokesPlus/blob/master/SearchInWebsite.lua) 站内搜索，默认用的是谷歌引擎
-+ [SearchThisWithGoogle](https://github.com/defpt/StrokesPlus/blob/master/SearchThisWithGoogle.lua) 谷歌搜索，**全局搜索利器**，在记事本、word等文本编辑器也可使用
++ [ScrollWithMouse](https://github.com/defpt/StrokesPlus/blob/master/ScrollwithMouse.lua) 划手势激活，光标移到滚动条滑块即可拖动鼠标进行自由滚动，鼠标移到桌面底部退出激活状态，可自己按需修改。**特别注意由于采用了滚动块颜色判定，***所以如过使用自定义滚动条要自己修改颜色代码*
++ [SearchInWebsite](https://github.com/defpt/StrokesPlus/blob/master/Searchinwebsite.lua) 站内搜索，默认用的是谷歌引擎
++ [SearchThisWithGoogle](https://github.com/defpt/StrokesPlus/blob/master/Searchthiswithgoogle.lua) 谷歌搜索，**全局搜索利器**，在记事本、word等文本编辑器也可使用
 + [Shutdown](https://github.com/defpt/StrokesPlus/blob/master/Shutdown.lua) 关机
 + [SupperForward](https://github.com/defpt/StrokesPlus/blob/master/SupperForward.lua)、[SupperBack](https://github.com/defpt/StrokesPlus/blob/master/SupperBack.lua) 前进、后退，外加了模拟键盘左右方向键
-+ [TranslateThisWithGoogle](https://github.com/defpt/StrokesPlus/blob/master/TranslateThisWithGoogle.lua) 谷歌翻译，**全局利器**，默认自动识别翻译为中文，可自己设置默认翻译语言
-+ [ViewWithIE](https://github.com/defpt/StrokesPlus/blob/master/ViewWithIE.lua)、[ViewWithFirefox](https://github.com/defpt/StrokesPlus/blob/master/ViewWithFirefox.lua)、[ViewWithChrome](https://github.com/defpt/StrokesPlus/blob/master/ViewWithChrome.lua) 使用别的浏览器打开当前网页
++ [TranslateThisWithGoogle](https://github.com/defpt/StrokesPlus/blob/master/Translatethiswithgoogle.lua) 谷歌翻译，**全局利器**，默认自动识别翻译为中文，可自己设置默认翻译语言
++ [ViewWithIE](https://github.com/defpt/StrokesPlus/blob/master/ViewwithIE.lua)、[ViewWithFirefox](https://github.com/defpt/StrokesPlus/blob/master/ViewwithFirefox.lua)、[ViewWithChrome](https://github.com/defpt/StrokesPlus/blob/master/Viewwithchrome.lua) 使用别的浏览器打开当前网页
 + [JSTools](https://github.com/defpt/StrokesPlus/blob/master/JSTools.lua)  Firefox上调用小书签代码的模板,不过要配合启用地址栏可运行代码才行，可通过扩展（比如tab_utilities） 或脚本（uc脚本）总在当前标签页打开Bookmarklet，代码为：
 
           eval("openLinkIn = " + openLinkIn.toString().replace(/(?=if \(where == "save"\))/, 'if (url.substr(0, 11) == "javascript:") where = "current";').replace(/(?=var loadInBackground)/, 'if (w.gBrowser.currentURI.spec == "about:blank" && !w.gBrowser.mCurrentTab.hasAttribute("busy")) where = "current";'));
