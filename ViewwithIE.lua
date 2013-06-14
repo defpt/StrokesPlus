@@ -1,7 +1,0 @@
---View with IE(defpt)
-acSetClipboardText("")
-acSendKeys("^l")
-acSendKeys("^c")
-local url=acGetClipboardText()
-url=string.gsub(url,"https?://","")
-acRunProgram("C:\\Program Files\\Internet Explorer\\iexplore.exe",url,0, 1)
