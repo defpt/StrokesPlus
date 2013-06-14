@@ -1,12 +1,15 @@
 #StrokesPlus 说明文档
-这里是一些自用的 [StrokesPlus](http://www.strokesplus.com/forum/6/downloads/) 手势代码,包括简单的直接模拟快捷键以及一些自写**特殊功能**
+
+StrokesPlus 是我用过的最好的完美支持win8 的全局手势了。下面给出一些相关链接 [StrokesPlus官网](
+http://www.strokesplus.com/)、[官方下载地址](http://www.strokesplus.com/forum/forum.asp?FORUM_ID=6)、[StrokesPlus详细定制教程](http://bbs.kafan.cn/thread-1410275-1-1.html)
+**下面是我的自用设置以及一些具体代码**
 
 ###我的配置文件
 + [StrokesPlus.lua](https://github.com/defpt/StrokesPlus/blob/master/StrokesPlus.lua) 是全局执行的脚本文件
 + [StrokesPlus.xml](https://github.com/defpt/StrokesPlus/blob/master/StrokesPlus.xml) 是所有自定义手势设置
 + [RenameBackup.bat](https://github.com/defpt/StrokesPlus/blob/master/RenameBackup.bat) 是备份文件重命名为原文件的批处理
 
-###主要有如下几个：
+###主要自写代码有如下几个：
 
 + [AutoScroll](https://github.com/defpt/StrokesPlus/blob/master/AutoScroll.lua) 自动滚屏，每次滚动一个屏幕。**要手势激活**，默认鼠标移动到桌面左侧(大概一个Win8任务栏宽度)可退出激活状态，可自己按需修改
 + [Clip2OneNote](https://github.com/defpt/StrokesPlus/blob/master/Clip2OneNote) 发送到 OneNote 包括两个版本，一个要设置路径，一个不需设置路径
