@@ -1,4 +1,5 @@
---Auto Scroll(by defpt)
+--Auto Scroll
+--by defpt
 --鼠标移动到桌面左侧(大概一个Win8任务栏宽度)
 function Timing()--计时器
    for i=0,60,1 do --请自行计算选择i的最大值(0和1中间那个值)

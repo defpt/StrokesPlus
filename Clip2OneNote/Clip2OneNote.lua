@@ -1,5 +1,5 @@
---Clip to OneNote(by defpt)
---无需设置 OneNote 路径版
+--Clip to OneNote
+--无需设置 OneNote 路径版 by defpt
 acSetClipboardText("")
 acSendKeys("^c")
 acDelay(50)

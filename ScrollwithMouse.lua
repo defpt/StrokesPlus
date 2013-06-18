@@ -1,4 +1,5 @@
---Scroll with Mouse(by defpt)
+--Scroll with Mouse
+--by defpt
 --划手势激活，光标移到滚动条滑块即可拖动鼠标进行自由滚动，鼠标移到桌面底部退出激活状态
 function acScroll()--滚动状态
    if acGetExecutableName(nil, gsx, gsy) == "iexplore.exe" then --IE总是独立特行

@@ -1,8 +1,7 @@
---Clip to OneNote(by defpt)
---设置 OneNote 路径版
+--Clip to OneNote
+--设置 OneNote 路径版 by defpt
 acSetClipboardText("")
 acSendKeys("^c")
-acDelay(50)
 local data=acGetClipboardText()
 if data ~= "" then 
    acShellExecute("open","Onenote.exe","/sidenote","C:\\Program Files\\Microsoft Office\\Office15\\","")

@@ -1,4 +1,5 @@
---Open in GoogleWebeCache(defpt)
+--Open in GoogleWebeCache
+--by defpt
 acSetClipboardText("")
 acSendKeys("^l")
 acSendKeys("^c")
