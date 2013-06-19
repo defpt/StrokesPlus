@@ -18,7 +18,7 @@ http://www.strokesplus.com/)、[官方下载地址](http://www.strokesplus.com/f
 + [OpenLink_SearchText](https://github.com/defpt/StrokesPlus/blob/master/OpenLink_SearchText.lua)  搜索选中内容或者新标签前台打开链接
 + [OpenWithOtherBrowser](https://github.com/defpt/StrokesPlus/blob/master/OpenWithOtherBrowser.lua) 使用别的浏览器打开当前网页，这里用IE举例，其它任意浏览器皆可
 + [ScrollWithMouse](https://github.com/defpt/StrokesPlus/blob/master/ScrollwithMouse.lua) 划手势激活，光标移到滚动条滑块即可拖动鼠标进行自由滚动，鼠标移到桌面底部退出激活状态，可自己按需修改。**特别注意由于采用了滚动块颜色判定，***所以如过使用自定义滚动条要自己修改颜色代码*
-+ [SearchInWebsite](https://github.com/defpt/StrokesPlus/blob/master/Searchinwebsite.lua) 站内搜索，默认用的是谷歌引擎
++ [SearchInWebsite](https://github.com/defpt/StrokesPlus/blob/master/Searchinwebsite.lua) 站内搜索，不知道什么原因，只能用于Firefox，默认用的是谷歌引擎
 + [SearchWithGoogle](https://github.com/defpt/StrokesPlus/blob/master/SearchWithGoogle.lua) 谷歌搜索，**全局搜索利器**，在记事本、word等文本编辑器也可使用
 + [Shutdown](https://github.com/defpt/StrokesPlus/blob/master/Shutdown.lua) 关机
 + [SupperForward](https://github.com/defpt/StrokesPlus/blob/master/SupperForward.lua)、[SupperBack](https://github.com/defpt/StrokesPlus/blob/master/SupperBack.lua) 前进、后退，外加了模拟键盘左右方向键

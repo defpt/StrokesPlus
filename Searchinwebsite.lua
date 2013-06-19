@@ -1,4 +1,4 @@
---Search in website
+--Search in website for firefox
 --by defpt
 acSetClipboardText("")
 acSendKeys("^c")
