@@ -7,6 +7,7 @@ local text=acGetClipboardText()
 if text=="" then 
    text=acInputBox("Google 站内搜索", "请输入待搜索内容", "") 
 end
+if text~="" then
 acSendKeys("%d")
 acSendKeys("^c")
 acDelay(50)
@@ -15,3 +16,4 @@ acDelay(50)
 local url="https://www.google.de/search?q=site:"..domain.." "..text
 acDelay(50)
 acShellExecute("",url,"","","")
+end
