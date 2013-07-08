@@ -1,8 +1,9 @@
 --Open With Other Browser
 --by defpt
-acSetClipboardText("")
-acSendKeys("^l")
+acSendKeys("%d")
+acDelay(25)
 acSendKeys("^c")
 acDelay(50)
-local url=acGetClipboardText()
+url=acGetClipboardText()
+acDelay(50)
 acShellExecute("open","iexplore.exe",url,"C:\\Program Files\\Internet Explorer\\","")
