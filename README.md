@@ -19,10 +19,8 @@ http://www.strokesplus.com/)、[官方下载地址](http://www.strokesplus.com/f
 + [OpenWithOtherBrowser](https://github.com/defpt/StrokesPlus/blob/master/OpenWithOtherBrowser.lua) 使用别的浏览器打开当前网页，这里用IE举例，其它任意浏览器皆可
 + [ScrollWithMouse](https://github.com/defpt/StrokesPlus/blob/master/ScrollwithMouse.lua) 划手势激活，光标移到滚动条滑块即可拖动鼠标进行自由滚动，鼠标移到桌面底部退出激活状态，可自己按需修改。**特别注意由于采用了滚动块颜色判定，***所以如过使用自定义滚动条要自己修改颜色代码*
 + [SearchInWebsite](https://github.com/defpt/StrokesPlus/blob/master/Searchinwebsite.lua) 站内搜索，不知道什么原因，只能用于Firefox，默认用的是谷歌引擎
-+ [SearchWithGoogle](https://github.com/defpt/StrokesPlus/blob/master/SearchWithGoogle.lua) 谷歌搜索，**全局搜索利器**，在记事本、word等文本编辑器也可使用
 + [Shutdown](https://github.com/defpt/StrokesPlus/blob/master/Shutdown.lua) 关机
 + [SupperForward](https://github.com/defpt/StrokesPlus/blob/master/SupperForward.lua)、[SupperBack](https://github.com/defpt/StrokesPlus/blob/master/SupperBack.lua) 前进、后退，外加了模拟键盘左右方向键
-+ [TranslateWithGoogle](https://github.com/defpt/StrokesPlus/blob/master/TranslateWithGoogle.lua) 谷歌翻译，**全局利器**，默认自动识别翻译为中文，可自己设置默认翻译语言
 + [JSTools](https://github.com/defpt/StrokesPlus/blob/master/JSTools.lua)  Firefox上调用小书签代码的模板,不过要配合启用地址栏可运行代码才行，可通过扩展（比如tab_utilities） 或脚本（uc脚本）总在当前标签页打开Bookmarklet，代码为：
 
           eval("openLinkIn = " + openLinkIn.toString().replace(/(?=if \(where == "save"\))/, 'if (url.substr(0, 11) == "javascript:") where = "current";').replace(/(?=var loadInBackground)/, 'if (w.gBrowser.currentURI.spec == "about:blank" && !w.gBrowser.mCurrentTab.hasAttribute("busy")) where = "current";'));
